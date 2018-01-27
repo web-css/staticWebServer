@@ -1,0 +1,31 @@
+{
+  "name": "staticwebserver",
+  "version": "0.0.1",
+  "description": "node static",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint ."
+  },
+  "pre-commit": [
+    "eslint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-css/staticWebServer.git"
+  },
+  "keywords": [
+    "node",
+    "static"
+  ],
+  "author": "css",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/web-css/staticWebServer/issues"
+  },
+  "homepage": "https://github.com/web-css/staticWebServer#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
